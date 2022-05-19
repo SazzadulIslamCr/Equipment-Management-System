@@ -1,0 +1,34 @@
+[
+    {
+        "id": "009",
+        "name"  : "Mouse",
+        "price"       : "200",
+        "assigned_date": "12-02-2013",
+        "assigned_to" : "Sazzad",
+        "img": ""
+    },
+    {
+        "id": "010",
+        "name"  : "Key-board",
+        "price"       : "230",
+        "assigned_date": "2-02-2013",
+        "assigned_to" : "SazzadAdmin",
+        "img": ""
+    },
+    {
+        "id": "011",
+        "name"  : "Mug",
+        "price"       : "240",
+        "assigned_date": "4-02-2013",
+        "assigned_to" : "Babor",
+        "img": ""
+    },
+    {
+        "id": "012",
+        "name"  : "Plate",
+        "price"       : "400",
+        "assigned_date": "3-02-2013",
+        "assigned_to" : "Babor",
+        "img": ""
+    }
+]

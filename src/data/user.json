@@ -1,0 +1,30 @@
+[
+    {
+        "user_id": "001",
+        "email"  : "admin@admin.com",
+        "name" : "Admin",
+        "password": "admin",
+        "role" : "admin"
+    },
+    {
+        "user_id": "002",
+        "email"  : "sazzadul@coderex.co",
+        "name" : "Sazzad",
+        "password": "user",
+        "role" : "user"
+    },
+    {
+        "user_id": "003",
+        "email"  : "sazzad.sowmik@gmail.com",
+        "name" : "SazzadAdmin",
+        "password": "admin",
+        "role" : "admin"
+    },
+    {
+        "user_id": "004",
+        "email"  : "babor@coderex.co",
+        "name" : "Babor",
+        "password": "user",
+        "role" : "user"
+    }
+]
