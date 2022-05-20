@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Dashboard",
+        "icon" : "AiOutlineDashboard",
+        "path" : "/"
+    },
+    {
+        "title": "Equipments",
+        "icon" : "MdOutlineInventory2",
+        "path" : "/equipments"
+     },
+     {
+        "title": "Cabinets",
+        "icon" : "BiCabinet",
+        "path" : "/cabinets"
+     },
+     {
+        "title": "Requisitions",
+        "icon" : "BiMailSend",
+        "path" : "/requisitions"
+     },
+     {
+        "title": "Profile",
+        "icon" : "RiProfileLine",
+        "path" : "/profile"
+     },
+     {
+        "title": "My Equipments",
+        "icon" : "MdOutlineInventory",
+        "path" : "/myequipments"
+     },
+     {
+        "title": "Logout",
+        "icon" : "BiLogOut",
+        "path" : "/login"
+     }
+]
