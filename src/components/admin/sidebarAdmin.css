@@ -21,6 +21,7 @@ body{
     background-color: orange;
     height: 100%;
     overflow: auto;
+    border-radius: 5px;
 }
 .sidebar-item{
     padding: .5em;

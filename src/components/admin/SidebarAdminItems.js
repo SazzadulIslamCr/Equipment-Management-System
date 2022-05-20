@@ -30,7 +30,9 @@ export default function SidebarAdminItems({item}) {
           <div className='sidebar-title'>
               <span>
                   {/* <Icon.Speedometer viewBox="0 0 16 20"/> */}
-                  <Icon.Alarm/>
+                  {/*console.log(item.icon)*/}
+
+                  <i className={item.icon}></i>
                   <h1 className='sidebar-name'>
                     {item.title}
                   </h1>

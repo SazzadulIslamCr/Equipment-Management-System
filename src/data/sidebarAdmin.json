@@ -1,37 +1,37 @@
 [
     {
         "title": "Dashboard",
-        "icon" : "AiOutlineDashboard",
+        "icon" : "bi bi-speedometer2",
         "path" : "/"
     },
     {
         "title": "Equipments",
-        "icon" : "MdOutlineInventory2",
+        "icon" : "bi bi-basket",
         "path" : "/equipments"
      },
      {
         "title": "Cabinets",
-        "icon" : "BiCabinet",
+        "icon" : "bi bi-inboxes",
         "path" : "/cabinets"
      },
      {
         "title": "Requisitions",
-        "icon" : "BiMailSend",
+        "icon" : "bi bi-mailbox",
         "path" : "/requisitions"
      },
      {
         "title": "Profile",
-        "icon" : "RiProfileLine",
+        "icon" : "bi bi-person-bounding-box",
         "path" : "/profile"
      },
      {
         "title": "My Equipments",
-        "icon" : "MdOutlineInventory",
+        "icon" : "bi bi-cart",
         "path" : "/myequipments"
      },
      {
         "title": "Logout",
-        "icon" : "BiLogOut",
+        "icon" : "bi bi-box-arrow-left",
         "path" : "/login"
      }
 ]
