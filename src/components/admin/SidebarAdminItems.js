@@ -1,7 +1,12 @@
 import React from 'react'
+import { Routes, Route } from "react-router-dom";
 import * as Icon from 'react-bootstrap-icons';
 import './sidebarAdmin.css'
 import { useState } from 'react';
+import Dashboard from '../../pages/dashboard';
+import Equipments from '../../pages/equipments';
+import Cabinets from '../../pages/cabinets';
+import { preventOverflow } from '@popperjs/core';
 
 export default function SidebarAdminItems({item}) {
   const [open, setOpen] = useState(false);
@@ -12,6 +17,7 @@ export default function SidebarAdminItems({item}) {
           <div className='sidebar-title'>
               <span>
                   {/* <Icon.Speedometer viewBox="0 0 16 20"/> */}
+                  {item.icon && <i className={item.icon}></i>}
                   <h1 className='sidebar-name'>
                     {item.title}
                   </h1>
@@ -19,26 +25,21 @@ export default function SidebarAdminItems({item}) {
               <Icon.ChevronDown className='toggle-btn' onClick={() => setOpen(!open)}/>
           </div>
           <div className='sidebar-content'>
-            hellow
+            {item.childrens.map((child, index)=><SidebarAdminItems key={index} item={child}/>)}
           </div>
       </div>
     )
   }
   else{
     return (
-      <div className={open ? "sidebar-item open" : "sidebar-item"}>
-          <div className='sidebar-title'>
+          <a href={item.path || "#"} className='sidebar-title plain'>
               <span>
-                  {/* <Icon.Speedometer viewBox="0 0 16 20"/> */}
-                  {/*console.log(item.icon)*/}
-
-                  <i className={item.icon}></i>
+                  {item.icon && <i className={item.icon}></i>}
                   <h1 className='sidebar-name'>
                     {item.title}
                   </h1>
               </span>
-          </div>
-      </div>
+          </a>
     )
   }
 
