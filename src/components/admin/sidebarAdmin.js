@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react'
 import './sidebarAdmin.css'
 import SidebarAdminItems from './SidebarAdminItems'
@@ -10,7 +9,6 @@ export default class Menu extends Component {
             <div className='main'>
                 <div className='sidebar'>
                     { items.map((item, index) => <SidebarAdminItems key={index} item={item} />)}
-                    
                 </div>
           </div>
         )

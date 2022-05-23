@@ -5,5 +5,4 @@ function SidebarUser() {
     <div>SidebarUser</div>
   )
 }
-
 export default SidebarUser
