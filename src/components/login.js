@@ -4,7 +4,7 @@ import './login.css'
 import { BiUserCircle } from 'react-icons/bi';
 import uiImg from '../images/login_page.svg';
 
-function login() {
+function Login() {
   return (
     <>
       <Container className='m-5'>
@@ -35,4 +35,4 @@ function login() {
   )
 }
 
-export default login
+export default Login
