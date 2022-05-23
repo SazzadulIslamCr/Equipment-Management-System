@@ -16,7 +16,7 @@ body{
     height: 100vh;
 }
 .sidebar{
-    width: 230px;
+    width: 210px;
     flex-shrink: 0;
     background-color: orange;
     height: 100%;

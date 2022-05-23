@@ -3,10 +3,10 @@ import { Routes, Route } from "react-router-dom";
 import * as Icon from 'react-bootstrap-icons';
 import './sidebarAdmin.css'
 import { useState } from 'react';
-import Dashboard from '../../pages/dashboard';
-import Equipments from '../../pages/equipments';
-import Cabinets from '../../pages/cabinets';
-import { preventOverflow } from '@popperjs/core';
+// import Dashboard from '../../pages/dashboard';
+// import Equipments from '../../pages/equipments';
+// import Cabinets from '../../pages/cabinets';
+// import { preventOverflow } from '@popperjs/core';
 
 export default function SidebarAdminItems({item}) {
   const [open, setOpen] = useState(false);

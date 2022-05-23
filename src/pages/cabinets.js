@@ -1,9 +1,9 @@
 import React from 'react'
 
-function cabinets() {
+function Cabinets() {
   return (
     <div>cabinets</div>
   )
 }
 
-export default cabinets
+export default Cabinets

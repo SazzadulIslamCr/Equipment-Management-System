@@ -1,9 +1,9 @@
 import React from 'react'
 
-function requisitions() {
+function Requisitions() {
   return (
     <div>requisitions</div>
   )
 }
 
-export default requisitions
+export default Requisitions

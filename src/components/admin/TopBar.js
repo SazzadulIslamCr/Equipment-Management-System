@@ -13,11 +13,11 @@ function TopBar() {
             <Nav.Item>
                 <img src={Logo} width='45px'></img>
             </Nav.Item>
-            <Nav.Item style={{marginLeft: 'auto'}}>
+            <Nav.Item style={{marginLeft: 'auto', fontFamily: 'cursive', fontSize: '1.5em'}}>
                 Equipment Management System
             </Nav.Item>
             <Nav.Link href='#' style={{marginLeft: 'auto', paddingRight:'2em'}}>
-                <i class="bi bi-bell-fill"></i>
+                <i className="bi bi-bell-fill"></i>
             </Nav.Link>
        </Navbar>
     </div>)

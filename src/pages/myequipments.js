@@ -1,9 +1,9 @@
 import React from 'react'
 
-function myequipments() {
+function Myequipments() {
   return (
-    <div>myequipments</div>
+    <div>M</div>
   )
 }
 
-export default myequipments
+export default Myequipments
